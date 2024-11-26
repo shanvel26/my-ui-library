@@ -1,0 +1,86 @@
+/* Base Button Style */
+.button {
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  padding: 12px 24px;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); */
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  /* background-color: white; */
+  /* margin: 20px; */
+  /* font-weight: 600; */
+  /* color: #ffffff; */
+  /* background-color: #28a745; */
+  /* width: 200px;
+  height: 50px; */
+  /* display: inline-flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* .button:hover {
+  background-color: #218838;
+  color: #f8f9fa;
+}
+
+.button:focus {
+  outline: 2px solid #218838;
+} */
+
+/* Variants */
+
+/* Primary Button */
+.button--primary {
+  background-color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.button--primary:hover {
+  background-color: #0056b3;
+}
+
+/* Secondary Button */
+.button--secondary {
+  background-color: #6c757d;
+  border: 2px solid #6c757d;
+}
+
+.button--secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Success Button */
+.button--success {
+  background-color: #28a745;
+  border: 2px solid #28a745;
+}
+
+.button--success:hover {
+  background-color: #218838;
+}
+
+.button--success:active {
+  background-color: #1e7e34;
+  border: 2px solid #1a682c;
+}
+
+/* Danger Button */
+.button--danger {
+  background-color: #dc3545;
+  border: 2px solid #dc3545;
+}
+
+.button--danger:hover {
+  background-color: #c82333;
+}
+
+/* Disabled Button */
+.button--disabled, .button--disabled:hover {
+  background-color: #cccccc;
+  color: #666666;
+  border: 2px solid #cccccc;
+  cursor: not-allowed;
+}
